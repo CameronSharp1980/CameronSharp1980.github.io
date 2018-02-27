@@ -1,0 +1,137 @@
+/* RESET RULES */
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* END OF RESET RULES */
+
+/* BOOTSTRAP OVERRIDE RULES */
+
+/* END OF BOOTSTRAP OVERRIDE RULES */
+
+/*** STRUCTURE RULES */
+
+.width-100 {
+    width: 100%;
+}
+
+.title-div {
+    height: 100vh;
+    background-color: green;
+}
+
+/****** FLEXBOX RULES */
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-dir-col {
+    flex-direction: column;
+}
+
+.flex-dir-row {
+    flex-direction: row;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-justify-around {
+    justify-content: space-around
+}
+
+.flex-justify-between {
+    justify-content: space-between;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+/****** END OF FLEX RULES */
+
+/*** END OF STRUCTURE RULES */
+
+/* FORMATTING RULES */
+
+/* .title-box {} */
+
+.title-box .nameplate {
+    padding: 10px;
+    letter-spacing: 1rem;
+    background-color: #555555;
+    color: #999999;
+}
+
+.section-heading {
+    background-color: #664400;
+    text-align: center;
+    color: #ffffff;
+    padding: 5rem;
+}
+
+.box {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.profile-caption {
+    /* flex-shrink: 1;
+    flex-grow: 0; */
+    flex-basis: 50%;
+}
+
+.scroll-arrow {
+    font-size: 5rem;
+    color: #cccccc;
+}
+
+.headshot-div {
+    flex-basis: 25%;
+    min-width: 175px;
+    /* flex-shrink: 0;
+    flex-grow: 1; */
+    /* background-color: yellow; */
+}
+
+.full-width-pic {
+    width: 100%;
+}
+
+.project-content{
+    flex-basis: 20%;
+    min-width: 250px;
+}
+
+.skills-content{
+    flex-basis: 10%;
+    min-width: 200px;
+}
+
+.footer-div {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5rem;
+}
+
+.footer-content {
+    font-size: 3rem;
+}
+
+/* END OF FORMATTING RULES */
+
+/* TEMPORARY / TEST RULES */
+
+.back {
+    background-color: red;
+}
+
+/* END OF TEMPORARY / TEST RULES */
