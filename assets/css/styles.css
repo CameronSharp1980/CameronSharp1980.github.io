@@ -22,13 +22,29 @@ h1, h2, h3, h4, h5, h6 {
     background-color: green;
 }
 
+.title-div {
+    /* background-image: url("../../assets/img/headshot.jpg"); */
+}
+
+.intro-div {
+    /* background-image: url("../../assets/img/headshot.jpg"); */
+}
+
+.portfolio-div {
+    /* background-image: url("../../assets/img/headshot.jpg"); */
+}
+
+.skills-div {
+    /* background-image: url("../../assets/img/headshot.jpg"); */
+}
+
 /****** FLEXBOX RULES */
 
 .flex {
     display: flex;
 }
 
-.flex-wrap{
+.flex-wrap {
     flex-wrap: wrap;
 }
 
@@ -44,6 +60,10 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
+.flex-justify-flex-end {
+    justify-content: flex-end;
+}
+
 .flex-justify-around {
     justify-content: space-around
 }
@@ -56,15 +76,33 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
+.flex-align-start {
+    align-items: start;
+}
+
 /****** END OF FLEX RULES */
 
 /*** END OF STRUCTURE RULES */
 
-/* FORMATTING RULES */
+/* STYLING RULES */
 
 /* .title-box {} */
 
-.title-box .nameplate {
+.buffer{
+    padding: .75rem;
+}
+
+.title-box h1 {
+    /* PLAY WITH VH / VW HERE */
+    font-size: 12vh;
+}
+
+.title-box span {
+    /* PLAY WITH VH / VW HERE */
+    font-size: 4vh;
+}
+
+.nameplate {
     padding: 10px;
     letter-spacing: 1rem;
     background-color: #555555;
@@ -78,15 +116,32 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5rem;
 }
 
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
 .box {
     padding: 1rem;
     margin: 1rem;
+}
+
+.glass-back {
+    background-color: rgba(173, 216, 230, .5);
 }
 
 .profile-caption {
     /* flex-shrink: 1;
     flex-grow: 0; */
     flex-basis: 50%;
+}
+
+.profile-caption p {
+    font-size: 1.75rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: .75rem;
 }
 
 .scroll-arrow {
@@ -97,6 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 .headshot-div {
     flex-basis: 25%;
     min-width: 175px;
+    max-width: 400px;
     /* flex-shrink: 0;
     flex-grow: 1; */
     /* background-color: yellow; */
@@ -106,12 +162,27 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-.project-content{
+.project-content {
     flex-basis: 20%;
     min-width: 250px;
 }
 
-.skills-content{
+.caption-glass{
+    display: none;
+    height: 202.42px;
+    background-color: black;
+    z-index: -5;
+}
+
+.project-content:hover div.caption-glass{
+    display: block;
+}
+
+.project-content:hover img{
+    display: none;
+}
+
+.skills-content {
     flex-basis: 10%;
     min-width: 200px;
 }
