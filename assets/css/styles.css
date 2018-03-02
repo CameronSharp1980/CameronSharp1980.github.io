@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 250px;
 }
 
-a.box-link {
+.box-link {
     position: relative;
     text-decoration: none;
 }
@@ -183,12 +183,12 @@ a.box-link {
     color: #ffffff;
 }
 
-.caption-glass h1{
+.caption-glass h1, .caption-glass h3 {
     display: inline;
     border-bottom: 1px solid #ffffff;
 }
 
-.caption-glass p{
+.caption-glass p {
     margin-top: .75rem;
 }
 
@@ -203,17 +203,24 @@ a.box-link {
 
 .skills-content {
     flex-basis: 10%;
-    min-width: 200px;
+    min-width: 150px;
 }
 
 .footer-div {
     background-color: #000000;
-    color: #ffffff;
     padding: 5rem;
 }
 
 .footer-content {
+    flex-basis: 10%;
+    min-width: 64px;
     font-size: 3rem;
+    text-align: center;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* END OF FORMATTING RULES */
