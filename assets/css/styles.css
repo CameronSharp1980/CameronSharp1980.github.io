@@ -140,12 +140,13 @@ h1, h2, h3, h4, h5, h6 {
     /* flex-shrink: 1;
     flex-grow: 0; */
     flex-basis: 50%;
+    padding: 3rem;
 }
 
 .profile-caption p {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: .75rem;
+    letter-spacing: .25rem;
 }
 
 .scroll-arrow {
@@ -159,7 +160,6 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 400px;
     /* flex-shrink: 0;
     flex-grow: 1; */
-    /* background-color: yellow; */
 }
 
 .full-width-pic {
