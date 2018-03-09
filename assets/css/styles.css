@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* BOOTSTRAP OVERRIDE RULES */
 
+.modal-open .modal, a:focus{
+    outline:none;
+}
+
 /* END OF BOOTSTRAP OVERRIDE RULES */
 
 /*** STRUCTURE RULES */
@@ -184,12 +188,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .caption-glass h1, .caption-glass h3 {
-    display: inline;
+    /* display: inline; */
     border-bottom: 1px solid #ffffff;
 }
 
-.caption-glass p {
+.caption-glass h3 {
     margin-top: .75rem;
+    margin-bottom: .75rem;
 }
 
 .box-link:hover div.caption-glass {
@@ -206,9 +211,8 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 150px;
 }
 
-.skills-bar{
-    height: 1rem;
-    width: 1%;
+.skills-bar {
+    height: 2rem;
 }
 
 .footer-div {

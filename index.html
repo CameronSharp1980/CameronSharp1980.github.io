@@ -15,8 +15,6 @@
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
     <script defer src="./assets/js/app.js"></script>
 
 </head>
@@ -67,28 +65,28 @@
     </div>
     <!-- END OF SECTION-HEADING -->
     <div class="portfolio-div parallax flex flex-wrap flex-justify-around flex-align-center">
-        <a href="https://cultist-td.herokuapp.com/" alt="World of Lovecraft Thumbnail and link" class="box project-content box-link block">
+        <a href="#" alt="World of Lovecraft Thumbnail and link" class="box project-content box-link block" data-toggle="modal" data-target="#lovecraft-modal">
             <div class="caption-glass text-center">
                 <h1>Caption</h1>
                 <p>Test Test Test</p>
             </div>
             <img src="./assets/img/cultist-td.jpg" alt="World of Lovecraft Project Thumbnail" class="full-width-pic">
         </a>
-        <a href="https://keepr-vue-node.herokuapp.com/" alt="KeepR! Thumbnail and link" class="box project-content box-link block">
+        <a href="#" alt="KeepR! Thumbnail and link" class="box project-content box-link block" data-toggle="modal" data-target="#keepr-modal">
             <div class="caption-glass text-center">
                 <h1>Caption</h1>
                 <p>Test Test Test</p>
             </div>
             <img src="./assets/img/keepr.jpg" alt="KeepR! Project Thumbnail" class="full-width-pic">
         </a>
-        <a href="https://kanbanvuejs.herokuapp.com/" alt="proBoards! Thumbnail and link" class="box project-content box-link block">
+        <a href="#" alt="proBoards! Thumbnail and link" class="box project-content box-link block" data-toggle="modal" data-target="#proboards-modal">
             <div class="caption-glass text-center">
                 <h1>Caption</h1>
                 <p>Test Test Test</p>
             </div>
             <img src="./assets/img/proboards.jpg" alt="proBoards! Project Thumbnail" class="full-width-pic">
         </a>
-        <a href="https://vue-music.herokuapp.com/" alt="Vue-Music! Thumbnail and link" class="box project-content box-link block">
+        <a href="#" alt="Vue-Music! Thumbnail and link" class="box project-content box-link block" data-toggle="modal" data-target="#vue-music-modal">
             <div class="caption-glass text-center">
                 <h1>Caption</h1>
                 <p>Test Test Test</p>
@@ -105,63 +103,81 @@
         <div class="box skills-content box-link">
             <div class="caption-glass text-center" id="html">
                 <h3>HTML5</h3>
-                <div class="progress-bar skills-bar" id="html-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="70"></div>
+                <div class="progress">
+                    <div class="progress-bar skills-bar" id="html-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="85"></div>
+                </div>
             </div>
             <img src="./assets/img/html5-logo.svg" alt="HTML5 Logo" class="full-width-pic">
         </div>
         <div class="box skills-content box-link">
             <div class="caption-glass text-center" id="css">
                 <h3>CSS3</h3>
-                <div class="progress-bar skills-bar" id="css-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="70"></div>
+                <div class="progress">
+                    <div class="progress-bar skills-bar" id="css-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="85"></div>
+                </div>
             </div>
             <img src="./assets/img/css3-logo.png" alt="CSS3 Logo" class="full-width-pic">
         </div>
         <div class="box skills-content box-link">
             <div class="caption-glass text-center" id="js">
                 <h3>Javascript</h3>
-                <div class="progress-bar skills-bar" id="js-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="70"></div>
+                <div class="progress">
+                    <div class="progress-bar skills-bar" id="js-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="80"></div>
+                </div>
             </div>
             <img src="./assets/img/js-logo.png" alt="Javascript Logo" class="full-width-pic">
         </div>
         <div class="box skills-content box-link">
             <div class="caption-glass text-center" id="bootstrap">
                 <h3>Bootstrap</h3>
-                <div class="progress-bar skills-bar" id="bootstrap-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="70"></div>
+                <div class="progress">
+                    <div class="progress-bar skills-bar" id="bootstrap-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="70"></div>
+                </div>
             </div>
             <img src="./assets/img/bootstrap-logo.svg" alt="Bootstrap Logo" class="full-width-pic">
         </div>
         <div class="box skills-content box-link">
             <div class="caption-glass text-center" id="vue">
                 <h3>Vue JS</h3>
-                <div class="progress-bar skills-bar" id="vue-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="70"></div>
+                <div class="progress">
+                    <div class="progress-bar skills-bar" id="vue-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
+                </div>
             </div>
             <img src="./assets/img/vue-logo.png" alt="Vue JS Logo" class="full-width-pic">
         </div>
         <div class="box skills-content box-link">
             <div class="caption-glass text-center" id="node">
                 <h3>Node JS</h3>
-                <div class="progress-bar skills-bar" id="node-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="70"></div>
+                <div class="progress">
+                    <div class="progress-bar skills-bar" id="node-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
+                </div>
             </div>
             <img src="./assets/img/node-logo.png" alt="Node JS Logo" class="full-width-pic">
         </div>
         <div class="box skills-content box-link">
             <div class="caption-glass text-center" id="mongodb">
                 <h3>Mongo DB</h3>
-                <div class="progress-bar skills-bar" id="mongodb-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="70"></div>
+                <div class="progress">
+                    <div class="progress-bar skills-bar" id="mongodb-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="50"></div>
+                </div>
             </div>
             <img src="./assets/img/mongodb-logo.png" alt="Mongo DB Logo" class="full-width-pic">
         </div>
         <div class="box skills-content box-link">
             <div class="caption-glass text-center" id="csharp">
                 <h3>C#</h3>
-                <div class="progress-bar skills-bar" id="csharp-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="70"></div>
+                <div class="progress">
+                    <div class="progress-bar skills-bar" id="csharp-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="40"></div>
+                </div>
             </div>
             <img src="./assets/img/csharpdotnet-logo.png" alt="C# Logo" class="full-width-pic">
         </div>
         <div class="box skills-content box-link">
             <div class="caption-glass text-center" id="mysql">
                 <h3>MySQL</h3>
-                <div class="progress-bar skills-bar" id="mysql-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="70"></div>
+                <div class="progress">
+                    <div class="progress-bar skills-bar" id="mysql-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="40"></div>
+                </div>
             </div>
             <img src="./assets/img/mysql-logo.png" alt="MySQL Logo" class="full-width-pic">
         </div>
@@ -186,6 +202,94 @@
     </div>
     <!-- END OF FOOTER-DIV -->
 
+
+    <!-- MODALS -->
+
+    <!-- WORLD OF LOVECRAFT MODAL -->
+    <div id="lovecraft-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="lovecraft-modal-label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="lovecraft-modal-label">Modal Title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- END OF WORLD OF LOVECRAFT MODAL -->
+
+    <!-- KEEPR MODAL -->
+    <div id="keepr-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="keepr-modal-label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="keepr-modal-label">Modal Title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- END OF KEEPR MODAL -->
+
+    <!-- PROBOARDS MODAL -->
+    <div id="proboards-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="proboards-modal-label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="proboards-modal-label">Modal Title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- END OF PROBOARDS MODAL -->
+
+    <!-- VUE-MUSIC MODAL -->
+    <div id="vue-music-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="vue-music-modal-label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="vue-music-modal-label">Modal Title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- END OF VUE-MUSIC MODAL -->
+
+    <!-- END OF MODALS -->
 </body>
 
 </html>
