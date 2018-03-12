@@ -20,7 +20,6 @@ function setProgressBar(e) {
 }
 
 function resetProgressBars() {
-    console.log("derp")
     for (var i = 0; i < skillBars.length; i++) {
         skillBars[i].setAttribute("style", `width: 0%`)
     }
