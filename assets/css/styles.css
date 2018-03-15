@@ -15,6 +15,27 @@ h1, h2, h3, h4, h5, h6 {
 
 /* END OF BOOTSTRAP OVERRIDE RULES */
 
+/* BOOTSTRAP MODAL RULES */
+
+.project-modal {
+    background-color: #000000;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+.project-modal-title h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.project-modal-img .hi {
+    flex-basis: 50%;
+    min-width: 25px;
+}
+
+/* END OF BOOTSTRAP MODAL RULES */
+
 /*** STRUCTURE RULES */
 
 .width-100 {
