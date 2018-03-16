@@ -29,9 +29,22 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 3rem;
 }
 
-.project-modal-img .hi {
-    flex-basis: 50%;
+.project-modal-entry .project-modal-thumb {
+    flex-basis: 60%;
     min-width: 25px;
+    padding-bottom: 3rem;
+}
+
+.project-modal-entry .project-modal-caption {
+    flex-basis: 75%;
+    min-width: 50px;
+    padding-bottom: 3rem;
+}
+
+.project-modal-entry .project-modal-skills {
+    flex-basis: 25%;
+    min-width: 50px;
+    padding-bottom: 3rem;
 }
 
 /* END OF BOOTSTRAP MODAL RULES */
