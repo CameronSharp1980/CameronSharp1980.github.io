@@ -127,6 +127,10 @@ button.close span {
     flex-direction: column;
 }
 
+.flex-align-stretch {
+    align-items: stretch;
+}
+
 .flex-dir-row {
     flex-direction: row;
 }
@@ -231,6 +235,23 @@ button.close span {
     max-width: 400px;
     /* flex-shrink: 0;
     flex-grow: 1; */
+}
+
+.resume-link {
+    margin: 0 1rem 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    text-decoration: none;
+}
+
+.resume-link span {
+    margin-right: 1rem;
 }
 
 .project-content {
