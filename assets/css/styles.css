@@ -34,22 +34,50 @@ button.close span {
     padding-bottom: 3rem;
 }
 
-.project-modal-entry .project-modal-thumb {
-    flex-basis: 60%;
-    min-width: 25px;
+.project-modal-entry {
     padding-bottom: 3rem;
+}
+
+.project-modal-entry .project-modal-thumb {
+    flex-basis: 50%;
+    min-width: 25px;
 }
 
 .project-modal-entry .project-modal-caption {
     flex-basis: 75%;
     min-width: 50px;
-    padding-bottom: 3rem;
 }
 
 .project-modal-entry .project-modal-skills {
     flex-basis: 25%;
     min-width: 50px;
-    padding-bottom: 3rem;
+}
+
+.project-link {
+    display: block;
+    margin: .5rem;
+    padding: .5rem;
+    height: 3rem;
+    background-color: #000000;
+}
+
+.project-link:hover {
+    text-decoration: none;
+}
+
+.project-link i {
+    padding: .5rem;
+    font-size: 2rem;
+    /* line-height: 2rem; */
+    border-radius: 50%;
+    background-color: #999999;
+    color: #000000;
+}
+
+.project-link span {
+    /* line-height: 1.5rem; */
+    font-size: 1.75rem;
+    color: #ffffff;
 }
 
 /* END OF BOOTSTRAP MODAL RULES */
@@ -205,10 +233,6 @@ button.close span {
     flex-grow: 1; */
 }
 
-.full-width-pic {
-    width: 100%;
-}
-
 .project-content {
     flex-basis: 20%;
     min-width: 250px;
@@ -228,7 +252,7 @@ button.close span {
 }
 
 .box-link h1 {
-    font-size: 2rem;
+    font-size: 2.6rem;
 }
 
 .box-link p {
