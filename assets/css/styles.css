@@ -197,9 +197,9 @@ button.close span {
 
 .section-heading {
     /* background-color: #664400; */
-    background-color: #000000;
+    background-color: #555555;
     text-align: center;
-    color: #ffffff;
+    color: #88ffff;
     padding: 5rem;
 }
 
@@ -333,11 +333,11 @@ button.close span {
 
 .skills-bar {
     height: 2rem;
-    background-color: #bb0000;
+    background-color: #bb4444;
 }
 
 .footer-div {
-    background-color: #000000;
+    background-color: #555555;
     padding: 5rem;
 }
 
@@ -350,7 +350,7 @@ button.close span {
 
 .footer-content a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 /* END OF FORMATTING RULES */
