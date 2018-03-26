@@ -1,4 +1,4 @@
-var skills = document.getElementsByClassName('skills-content')
+var skills = document.getElementsByClassName('js-skills')
 var skillBars = document.getElementsByClassName('progress-bar')
 
 for (var i = 0; i < skills.length; i++) {

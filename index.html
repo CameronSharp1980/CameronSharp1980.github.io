@@ -20,21 +20,21 @@
 
 </head>
 
-<body class="parallax">
+<body>
 
-    <div class="title-div parallax flex flex-justify-between flex-align-center flex-dir-col">
-        <div class="menu-div flex flex-justify-flex-end width-100">
-            <!-- FUTURE MENU / CURRENT PLACEHOLDER FOR CENTERING NAME -->
-            <!-- <div class="back">box 1</div>
-            <div class="back">box 2</div>
-            <div class="back">box 3</div> -->
+    <div class="title-div parallax">
+        <div class="menu-div width-100">
+            <!-- PLACEHOLDER FOR FUTURE MENU -->
+            <!-- <div class="">box 1</div>
+            <div class="">box 2</div>
+            <div class="">box 3</div> -->
         </div>
         <div class="title-box text-center">
-            <div class="buffer">
+            <div class="title-name">
                 <h1 class="nameplate glass-back">Cameron Sharp</h1>
             </div>
-            <div class="buffer">
-                <span class="nameplate glass-back">Software Developer</span>
+            <div class="title-sub">
+                <h6 class="nameplate glass-back">Software Developer</h6>
             </div>
         </div>
         <div class="scoll-icon-div">
@@ -46,15 +46,13 @@
         <h1>About Me</h1>
     </div>
     <!-- END OF SECTION-HEADING -->
-    <div class="intro-div parallax flex flex-wrap flex-justify-center flex-align-start">
-        <div class="headshot-div flex flex-dir-col flex-justify-center flex-align-stretch">
+    <div class="intro-div parallax">
+        <div class="headshot-div">
             <div class="box headshot glass-back">
                 <img src="./assets/img/headshot.jpg" alt="Cameron Sharp Profile Picture" class="width-100">
             </div>
-            <!-- <div class="resume-link glass-back"> -->
             <a href="https://cameronsharp1980.github.io/resume/" target="_blank" class="glass-back resume-link">
                 <span class="fa fa-file-text-o"></span>Resume</a>
-            <!-- </div> -->
         </div>
         <div class="box profile-caption glass-back">
             <p>&emsp;My name is Cameron Sharp. I am a full&#8209;stack software developer operating out of the Salt Lake Valley.
@@ -71,12 +69,12 @@
         <h1>Project Portfolio</h1>
     </div>
     <!-- END OF SECTION-HEADING -->
-    <div class="portfolio-div parallax flex flex-wrap flex-justify-around flex-align-center">
-        <a href="#" alt="World of Lovecraft Thumbnail and link" class="box project-content box-link block" data-toggle="modal" data-target="#lovecraft-modal">
+    <div class="portfolio-div parallax">
+        <a href="#" alt="World of Lovecraft Thumbnail and link" class="box project-content box-link" data-toggle="modal" data-target="#lovecraft-modal">
             <div class="caption-glass text-center">
                 <h1>World Of Lovecraft</h1>
                 <p> - Tower Defense Game - </p>
-                <div class="flex flex-justify-around flex-align-center">
+                <div class="project-skills-container">
                     <div class="skill-box">
                         <img src="./assets/img/phaser-logo.png" alt="Phaser Logo">
                     </div>
@@ -88,19 +86,16 @@
                     </div>
                 </div>
             </div>
-            <img src="./assets/img/cultist-td.jpg" alt="World of Lovecraft Project Thumbnail" class="width-100">
+            <img src="./assets/img/cultist-td.jpg" alt="World of Lovecraft Project Thumbnail">
         </a>
-        <a href="#" alt="KeepR! Thumbnail and link" class="box project-content box-link block" data-toggle="modal" data-target="#keepr-modal">
+        <a href="#" alt="KeepR! Thumbnail and link" class="box project-content box-link" data-toggle="modal" data-target="#keepr-modal">
             <div class="caption-glass text-center">
                 <h1>KeepR!</h1>
                 <p> - Pinterest Clone - </p>
-                <div class="flex flex-justify-around flex-align-center">
+                <div class="project-skills-container">
                     <div class="skill-box">
                         <img src="./assets/img/vue-logo.png" alt="Vue.JS Logo">
                     </div>
-                    <!-- <div class="skill-box">
-                        <img src="./assets/img/js-logo.png" alt="Javascript Logo">
-                    </div> -->
                     <div class="skill-box">
                         <img src="./assets/img/csharpdotnet-logo.png" alt="C# Logo">
                     </div>
@@ -109,13 +104,13 @@
                     </div>
                 </div>
             </div>
-            <img src="./assets/img/keepr.jpg" alt="KeepR! Project Thumbnail" class="width-100">
+            <img src="./assets/img/keepr.jpg" alt="KeepR! Project Thumbnail">
         </a>
-        <a href="#" alt="proBoards! Thumbnail and link" class="box project-content box-link block" data-toggle="modal" data-target="#proboards-modal">
+        <a href="#" alt="proBoards! Thumbnail and link" class="box project-content box-link" data-toggle="modal" data-target="#proboards-modal">
             <div class="caption-glass text-center">
                 <h1>proBoards!</h1>
                 <p> - Kanban Board - </p>
-                <div class="flex flex-justify-around flex-align-center">
+                <div class="project-skills-container">
                     <div class="skill-box">
                         <img src="./assets/img/vue-logo.png" alt="Vue.JS Logo">
                     </div>
@@ -127,13 +122,13 @@
                     </div>
                 </div>
             </div>
-            <img src="./assets/img/proboards.jpg" alt="proBoards! Project Thumbnail" class="width-100">
+            <img src="./assets/img/proboards.jpg" alt="proBoards! Project Thumbnail">
         </a>
-        <a href="#" alt="Vue-Music! Thumbnail and link" class="box project-content box-link block" data-toggle="modal" data-target="#vue-music-modal">
+        <a href="#" alt="Vue-Music! Thumbnail and link" class="box project-content box-link" data-toggle="modal" data-target="#vue-music-modal">
             <div class="caption-glass text-center">
                 <h1>Vue-Music!</h1>
                 <p> - Music Playlist Manager - </p>
-                <div class="flex flex-justify-around flex-align-center">
+                <div class="project-skills-container">
                     <div class="skill-box">
                         <img src="./assets/img/vue-logo.png" alt="Vue.JS Logo">
                     </div>
@@ -145,7 +140,7 @@
                     </div>
                 </div>
             </div>
-            <img src="./assets/img/vue-music.jpg" alt="Vue-Music! Project Thumbnail" class="width-100">
+            <img src="./assets/img/vue-music.jpg" alt="Vue-Music! Project Thumbnail">
         </a>
     </div>
     <!-- END OF SKILLS-DIV -->
@@ -153,8 +148,8 @@
         <h1>Skills</h1>
     </div>
     <!-- END OF SECTION-HEADING -->
-    <div class="skills-div parallax flex flex-wrap flex-justify-around flex-align-center">
-        <div class="box skills-content box-link">
+    <div class="skills-div parallax">
+        <div class="box skills-content js-skills box-link">
             <div class="caption-glass text-center" id="html">
                 <h3 class="skills-header">HTML5</h3>
                 <div class="progress">
@@ -163,7 +158,7 @@
             </div>
             <img src="./assets/img/html5-logo.svg" alt="HTML5 Logo" class="width-100">
         </div>
-        <div class="box skills-content box-link">
+        <div class="box skills-content js-skills box-link">
             <div class="caption-glass text-center" id="css">
                 <h3 class="skills-header">CSS3</h3>
                 <div class="progress">
@@ -172,7 +167,7 @@
             </div>
             <img src="./assets/img/css3-logo.png" alt="CSS3 Logo" class="width-100">
         </div>
-        <div class="box skills-content box-link">
+        <div class="box skills-content js-skills box-link">
             <div class="caption-glass text-center" id="js">
                 <h3 class="skills-header">Javascript</h3>
                 <div class="progress">
@@ -181,7 +176,7 @@
             </div>
             <img src="./assets/img/js-logo.png" alt="Javascript Logo" class="width-100">
         </div>
-        <div class="box skills-content box-link">
+        <div class="box skills-content js-skills box-link">
             <div class="caption-glass text-center" id="bootstrap">
                 <h3 class="skills-header">Bootstrap</h3>
                 <div class="progress">
@@ -190,7 +185,7 @@
             </div>
             <img src="./assets/img/bootstrap-logo.svg" alt="Bootstrap Logo" class="width-100">
         </div>
-        <div class="box skills-content box-link">
+        <div class="box skills-content js-skills box-link">
             <div class="caption-glass text-center" id="vue">
                 <h3 class="skills-header">Vue JS</h3>
                 <div class="progress">
@@ -199,7 +194,7 @@
             </div>
             <img src="./assets/img/vue-logo.png" alt="Vue JS Logo" class="width-100">
         </div>
-        <div class="box skills-content box-link">
+        <div class="box skills-content js-skills box-link">
             <div class="caption-glass text-center" id="node">
                 <h3 class="skills-header">Node JS</h3>
                 <div class="progress">
@@ -208,7 +203,7 @@
             </div>
             <img src="./assets/img/node-logo.png" alt="Node JS Logo" class="width-100">
         </div>
-        <div class="box skills-content box-link">
+        <div class="box skills-content js-skills box-link">
             <div class="caption-glass text-center" id="mongodb">
                 <h3 class="skills-header">Mongo DB</h3>
                 <div class="progress">
@@ -217,7 +212,7 @@
             </div>
             <img src="./assets/img/mongodb-logo.png" alt="Mongo DB Logo" class="width-100">
         </div>
-        <div class="box skills-content box-link">
+        <div class="box skills-content js-skills box-link">
             <div class="caption-glass text-center" id="csharp">
                 <h3 class="skills-header">C#</h3>
                 <div class="progress">
@@ -226,7 +221,7 @@
             </div>
             <img src="./assets/img/csharpdotnet-logo.png" alt="C# Logo" class="width-100">
         </div>
-        <div class="box skills-content box-link">
+        <div class="box skills-content js-skills box-link">
             <div class="caption-glass text-center" id="mysql">
                 <h3 class="skills-header">MySQL</h3>
                 <div class="progress">
@@ -237,7 +232,7 @@
         </div>
     </div>
     <!-- END OF PORTFOLIO-DIV -->
-    <div class="footer-div flex flex-wrap flex-justify-center flex-align-center">
+    <div class="footer-div">
         <div class="box footer-content">
             <a href="https://github.com/CameronSharp1980" target="_blank">
                 <i class="fa fa-github"></i>
@@ -263,12 +258,6 @@
     <div id="lovecraft-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="lovecraft-modal-label">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <!-- <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            <h4 class="text-center" id="vue-music-modal-label">Vue Music!</h4>
-                        </div> -->
                 <div class="modal-body project-modal">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -276,22 +265,22 @@
                     <div class="project-modal-title">
                         <h1>World of Lovecraft</h1>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-center flex-align-center">
+                    <div class="project-modal-entry">
                         <div class="project-modal-thumb">
                             <img class="width-100" src="./assets/img/cultist-td.jpg" alt="World of Lovecraft">
                         </div>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-center flex-align-center">
+                    <div class="project-modal-entry-projects">
                         <a href="https://cultist-td.herokuapp.com/" target="_blank" class="project-link">
                             <i class="fa fa-globe"></i>
-                            <span>Visit Page</span>
+                            <span>Visit</span>
                         </a>
                         <a href="https://github.com/TimAaronSharp/Cultist-TD" target="_blank" class="project-link">
                             <i class="fa fa-github"></i>
-                            <span>Github Repo</span>
+                            <span>Github</span>
                         </a>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-center flex-align-center">
+                    <div class="project-modal-entry">
                         <div class="project-modal-caption">
                             <p>
                                 A Tower Defense game written with the Phaser HTML5 / Javascript framework for a team project. Makes calls to a Node.JS/Express/MonogoDB
@@ -299,7 +288,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-around flex-align-center">
+                    <div class="project-modal-entry-skills">
                         <div class="project-modal-skills">
                             <img class="width-100" src="./assets/img/phaser-logo.png" alt="Phaser Logo">
                         </div>
@@ -311,9 +300,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div> -->
             </div>
         </div>
     </div>
@@ -323,12 +309,6 @@
     <div id="keepr-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="keepr-modal-label">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <!-- <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            <h4 class="text-center" id="vue-music-modal-label">Vue Music!</h4>
-                        </div> -->
                 <div class="modal-body project-modal">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -336,26 +316,26 @@
                     <div class="project-modal-title">
                         <h1>KeepR!</h1>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-center flex-align-center">
+                    <div class="project-modal-entry">
                         <div class="project-modal-thumb">
                             <img class="width-100" src="./assets/img/keepr.jpg" alt="KeepR!">
                         </div>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-center flex-align-center">
+                    <div class="project-modal-entry-projects">
                         <a href="https://keepr-vue-node.herokuapp.com/" target="_blank" class="project-link">
                             <i class="fa fa-globe"></i>
-                            <span>Visit Page</span>
+                            <span>Visit</span>
                         </a>
                         <a href="https://github.com/CameronSharp1980/keepr-vue-node" target="_blank" class="project-link">
                             <i class="fa fa-github"></i>
-                            <span>Github Repo</span>
+                            <span>Github</span>
                         </a>
                         <a href="https://github.com/CameronSharp1980/keepr-c" target="_blank" class="project-link">
                             <i class="fa fa-github"></i>
-                            <span>Github Repo (C# Backend)</span>
+                            <span>C#</span>
                         </a>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-center flex-align-center">
+                    <div class="project-modal-entry">
                         <div class="project-modal-caption">
                             <p>
                                 A Pinterest clone that allows the user to save/manage "Keeps" (Pins) and "Vaults" (Boards) as well as manage lists of Keeps
@@ -364,7 +344,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-around flex-align-center">
+                    <div class="project-modal-entry-skills">
                         <div class="project-modal-skills">
                             <img class="width-100" src="./assets/img/vue-logo.png" alt="Vue.JS Logo">
                         </div>
@@ -376,9 +356,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div> -->
             </div>
         </div>
     </div>
@@ -388,12 +365,6 @@
     <div id="proboards-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="proboards-modal-label">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <!-- <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            <h4 class="text-center" id="vue-music-modal-label">Vue Music!</h4>
-                        </div> -->
                 <div class="modal-body project-modal">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -401,22 +372,22 @@
                     <div class="project-modal-title">
                         <h1>proBoards!</h1>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-center flex-align-center">
+                    <div class="project-modal-entry">
                         <div class="project-modal-thumb">
                             <img class="width-100" src="./assets/img/proboards.jpg" alt="proBoards!">
                         </div>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-center flex-align-center">
+                    <div class="project-modal-entry-projects">
                         <a href="http://kanbanvuejs.herokuapp.com/" target="_blank" class="project-link">
                             <i class="fa fa-globe"></i>
-                            <span>Visit Page</span>
+                            <span>Visit</span>
                         </a>
                         <a href="https://github.com/SeanMacKenzie/vue-kanban" target="_blank" class="project-link">
                             <i class="fa fa-github"></i>
-                            <span>Github Repo</span>
+                            <span>Github</span>
                         </a>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-center flex-align-center">
+                    <div class="project-modal-entry">
                         <div class="project-modal-caption">
                             <p>
                                 A Kanban board app built as a team project with Vue.js on the front‑end, Node.js and Express on the backend. Makes API calls
@@ -424,7 +395,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-around flex-align-center">
+                    <div class="project-modal-entry-skills">
                         <div class="project-modal-skills">
                             <img class="width-100" src="./assets/img/vue-logo.png" alt="Vue.JS Logo">
                         </div>
@@ -436,9 +407,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div> -->
             </div>
         </div>
     </div>
@@ -448,12 +416,6 @@
     <div id="vue-music-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="vue-music-modal-label">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <!-- <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h4 class="text-center" id="vue-music-modal-label">Vue Music!</h4>
-                </div> -->
                 <div class="modal-body project-modal">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -461,22 +423,22 @@
                     <div class="project-modal-title">
                         <h1>Vue Music!</h1>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-center flex-align-center">
+                    <div class="project-modal-entry">
                         <div class="project-modal-thumb">
                             <img class="width-100" src="./assets/img/vue-music.jpg" alt="Vue-Music!">
                         </div>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-center flex-align-center">
+                    <div class="project-modal-entry-projects">
                         <a href="https://vue-music.herokuapp.com/" target="_blank" class="project-link">
                             <i class="fa fa-globe"></i>
-                            <span>Visit Page</span>
+                            <span>Visit</span>
                         </a>
                         <a href="https://github.com/CameronSharp1980/vue-music-checkpoint" target="_blank" class="project-link">
                             <i class="fa fa-github"></i>
-                            <span>Github Repo</span>
+                            <span>Github</span>
                         </a>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-center flex-align-center">
+                    <div class="project-modal-entry">
                         <div class="project-modal-caption">
                             <p>
                                 A music playlist manager that makes calls to the iTunes api. Built with Vue.JS on the front-end and Node.JS, Express, and
@@ -484,7 +446,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="project-modal-entry flex flex-justify-around flex-align-center">
+                    <div class="project-modal-entry-skills">
                         <div class="project-modal-skills">
                             <img class="width-100" src="./assets/img/vue-logo.png" alt="Vue.JS Logo">
                         </div>
@@ -496,9 +458,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div> -->
             </div>
         </div>
     </div>
