@@ -210,14 +210,20 @@ button.close span {
 }
 
 .profile-caption {
-    flex-basis: 50%;
+    flex-basis: 70%;
     padding: 3rem;
 }
 
 .profile-caption p {
-    font-size: 1.5rem;
+    font-size: 2.1vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: .25rem;
+    /* letter-spacing: .25rem; */
+}
+
+@media screen and (max-width: 600px) {
+    .profile-caption p {
+        font-size: 3.5vw;
+    }
 }
 
 .scroll-arrow {
