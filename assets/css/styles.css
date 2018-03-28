@@ -210,19 +210,31 @@ button.close span {
 }
 
 .profile-caption {
-    flex-basis: 70%;
+    flex-basis: 60%;
     padding: 3rem;
 }
 
 .profile-caption p {
-    font-size: 2.1vw;
+    font-size: 1.75vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     /* letter-spacing: .25rem; */
 }
 
 @media screen and (max-width: 600px) {
+    .profile-caption {
+        flex-basis: 85%;
+    }
     .profile-caption p {
         font-size: 3.5vw;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .profile-caption {
+        flex-basis: 45%;
+    }
+    .profile-caption p {
+        font-size: 1.5vw;
     }
 }
 
