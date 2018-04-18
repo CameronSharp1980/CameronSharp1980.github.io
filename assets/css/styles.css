@@ -39,6 +39,7 @@ button.close span {
 }
 
 .project-modal-entry {
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,6 +54,7 @@ button.close span {
 }
 
 .project-modal-entry-projects {
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,6 +121,7 @@ button.close span {
 
 .title-div {
     height: 100vh;
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -130,7 +133,9 @@ button.close span {
 }
 
 .intro-div {
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: center;
     align-items: start;
@@ -138,7 +143,9 @@ button.close span {
 }
 
 .portfolio-div {
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -146,7 +153,9 @@ button.close span {
 }
 
 .skills-div {
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -158,6 +167,7 @@ button.close span {
 /* STYLING RULES */
 
 .title-box {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -247,6 +257,7 @@ button.close span {
     flex-basis: 25%;
     min-width: 175px;
     max-width: 400px;
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -320,6 +331,7 @@ button.close span {
 }
 
 .project-skills-container {
+    display: -webkit-flex;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -345,7 +357,9 @@ button.close span {
 }
 
 .footer-div {
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
